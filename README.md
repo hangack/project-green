@@ -31,10 +31,9 @@
 
 [![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
  - 팀 프로젝트(5인)
+ - 주제: 일본과 중국, 캐글러의 최신 트렌드
  - 언어:
-   - python
-     - `pandas`
-     - `plotly`
+   - python: `pandas`, `plotly`
  - 개발환경:
    - Jupyter Notebook
    - Kaggle Notebook
@@ -54,10 +53,10 @@
 
 #### 수학: 
  - 기초통계
- - 미적분학
  - 수리물리
- - 선형대수
- - 파동(푸리에 급수)
+   - 미적분학
+   - 선형대수
+   - 파동(푸리에 급수)
 
 #### 물리:
  - 일반물리1
@@ -73,35 +72,25 @@
 한정 분야에서 활용되는 전공 지식은 생략
 
 
-### CS 지식
+### CS
 
 #### 언어
  - Fortran
+ - C
+ - Python
    - math
    - numpy
    - pandas
    - Matplotlib
- - Python
- - C
 
 #### 생산성 툴
  - MS Office
- - OBS: Open Broadcaster Software
- - Adobe Premiere Pro
- - DaVinci Resolve
  - SPSS: Statistical Package for the Social Sciences
  - MATLAB
  - GrADS: Grid Analysis and Display System
- 
-
-
-## 취미영역
-
-### 게임
-
-#### 패키지&인디 게임 플레이
-
-#### 공략 영상 제작
+ - OBS: Open Broadcaster Software
+ - Adobe Premiere Pro
+ - DaVinci Resolve
 
 
 ## 해외여행
