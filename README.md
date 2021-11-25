@@ -37,7 +37,9 @@
  - 개발환경:
    - Jupyter Notebook
    - Kaggle Notebook
- - 제출 note: [the-latest-trends-in-east-asia-japan-and-china.ipynb](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/the-latest-trends-in-east-asia-japan-and-china.ipynb)
+ - 제출 notebook:
+   - URL: [The latest trends in East Asia, Japan and China](https://www.kaggle.com/kwdoku145/the-latest-trends-in-east-asia-japan-and-china)
+   - File: [the-latest-trends-in-east-asia-japan-and-china.ipynb](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/the-latest-trends-in-east-asia-japan-and-china.ipynb)
 
 
 
