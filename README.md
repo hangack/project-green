@@ -24,8 +24,21 @@
 
 #### Project
 1. [2021 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021)
-[./Kaggle_Survey-2021]()
+
+ - 프로젝트 폴더: [./Kaggle_Survey-2021](https://github.com/hangack/project-green/tree/main/Kaggle_Survey-2021)
  - 기간: 2021-11-08 ~ 2021-11-26
+ - 주최: 
+
+[![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
+ - 팀 프로젝트(5인)
+ - 언어:
+   - python
+     - `pandas`
+     - `plotly`
+ - 개발환경:
+   - Jupyter Notebook
+   - Kaggle Notebook
+ - 제출 note: [the-latest-trends-in-east-asia-japan-and-china.ipynb](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/the-latest-trends-in-east-asia-japan-and-china.ipynb)
 
 
 
