@@ -107,4 +107,4 @@
 
 
 ## More details about
-<a herf="https://hangack.github.io/about/"><img src="https://hangack.github.io/img/logo.png"></a>
+<a href="https://hangack.github.io/about/"><img src="https://hangack.github.io/img/logo.png" alt="hangack" width="20%"></a>
