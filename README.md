@@ -106,4 +106,6 @@
 
 
 
-More details: [![hangack](https://hangack.github.io/img/logo.png){: width="100" height="100"}](https://hangack.github.io/about/)
+More details: <a herf="https://hangack.github.io/about/"><img src="https://hangack.github.io/img/logo.png" alt="hangack" width="10%"></a>
+
+[![hangack](https://hangack.github.io/img/logo.png){: width="100" height="100"}](https://hangack.github.io/about/)
