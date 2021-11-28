@@ -1,3 +1,20 @@
+# kaggle_survey 2021
+
+[2021 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021)
+
+ - 기간: 2021-11-08 ~ 2021-11-26
+ - 주최: 
+
+[![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
+ - 팀 프로젝트(5인)
+ - 주제: 일본과 중국, 캐글러의 최신 트렌드
+ - 언어:
+   - python: `pandas`, `plotly`
+ - 개발환경:
+   - Jupyter Notebook
+   - Kaggle Notebook
+
+
 ## kaggle_survey data(csv)
 
 [캐글 설문조사 2021년도 Raw](https://raw.githubusercontent.com/hangack/project-green/main/Kaggle_Survey-2021/data/kaggle-survey-2021/kaggle_survey_2021_responses.csv)
@@ -24,3 +41,4 @@ my notebook
 
 ## PPT(pdf)
 
+PPT 자료: [일본과 중국 캐글러의 최신 트렌드.pdf](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/docs/%EC%9D%BC%EB%B3%B8%EA%B3%BC%20%EC%A4%91%EA%B5%AD%20%EC%BA%90%EA%B8%80%EB%9F%AC%EC%9D%98%20%EC%B5%9C%EC%8B%A0%20%ED%8A%B8%EB%A0%8C%EB%93%9C.pdf)
