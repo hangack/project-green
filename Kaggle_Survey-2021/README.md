@@ -17,8 +17,8 @@
 
 ## kaggle_survey data(csv)
 
-[캐글 설문조사 2021년도 Raw](https://raw.githubusercontent.com/hangack/project-green/main/Kaggle_Survey-2021/data/kaggle-survey-2021/kaggle_survey_2021_responses.csv)
-[캐글 설문조사 2019년도 Raw](https://raw.githubusercontent.com/hangack/project-green/main/Kaggle_Survey-2021/data/kaggle-survey-2019/multiple_choice_responses.csv)
+ - [캐글 설문조사 2021년도 Raw](https://raw.githubusercontent.com/hangack/project-green/main/Kaggle_Survey-2021/data/kaggle-survey-2021/kaggle_survey_2021_responses.csv)
+ - [캐글 설문조사 2019년도 Raw](https://raw.githubusercontent.com/hangack/project-green/main/Kaggle_Survey-2021/data/kaggle-survey-2019/multiple_choice_responses.csv)
 
 
 
@@ -37,6 +37,7 @@
 ### 최종 제출 notebook
  - URL: [The latest trends in East Asia, Japan and China](https://www.kaggle.com/kwdoku145/the-latest-trends-in-east-asia-japan-and-china)
  - File: [the-latest-trends-in-east-asia-japan-and-china.ipynb](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/the-latest-trends-in-east-asia-japan-and-china.ipynb)
+
 ![submit](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/submit.PNG)
 
 ## PPT(pdf)
