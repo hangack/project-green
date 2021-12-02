@@ -28,7 +28,7 @@
  - 00: [data type Warning](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/my_work/Kaggle_Survey00%20data%20type%20Warning%20%5Bpandas%5D.ipynb)
  - 01: [Pie: Q2(Gender)](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/my_work/Kaggle_Survey01%20Pie%20%5BPlotly%5D.ipynb)
  - 02: [Bar: Q1(Age)](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/my_work/Kaggle_Survey02%20Bar%20%5BPlotly%5D.ipynb)
- - 03: [Treemap: Programming_Languages & IDE's](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/my_work/Kaggle_Survey03%20Treemap%20%5BPlotly%5D.ipynb)_comp1-Copy1.ipynb)
+ - 03: [Treemap: Programming_Languages & IDE's](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/my_work/Kaggle_Survey03%20Treemap%20%5BPlotly%5D.ipynb)
  
 동적 그래프 plotly:
  - [hangack 블로그 KAGGLE_SURVEY 2021](https://hangack.github.io/categories/%EC%97%B0%EC%8A%B5/%ED%8C%8C%EC%9D%B4%EC%8D%AC/Kaggle-Survey-2021/)에서 확인 가능
