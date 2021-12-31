@@ -27,7 +27,7 @@
 
  - 프로젝트 폴더: [./Kaggle_Survey-2021](https://github.com/hangack/project-green/tree/main/Kaggle_Survey-2021)
  - 대회기간: 2021-10-14 ~ 2021-11-28
- - 기간: 2021-11-08 ~ 2021-11-26
+ - 프로젝트: 2021-11-08 ~ 2021-11-26
  - 주최: 
 
 [![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
@@ -48,7 +48,7 @@
 
  - 프로젝트 폴더: []()
  - 대회기간: 2021-12-01 ~ 2021-12-31
- - 기간: 2021-12-20 ~ 2021-12-28
+ - 프로젝트: 2021-12-20 ~ 2021-12-28
  - 주최: 
 
 [![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
