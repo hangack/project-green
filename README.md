@@ -48,7 +48,7 @@
 
  - 프로젝트 폴더: []()
  - 대회기간: 2021-12-01 ~ 2021-12-31
- - 프로젝트: 2021-12-20 ~ 2021-12-28
+ - 프로젝트: 2021-12-20 ~ 2021-12-29
  - 주최: 
 
 [![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
