@@ -26,6 +26,7 @@
 1. [2021 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021)
 
  - 프로젝트 폴더: [./Kaggle_Survey-2021](https://github.com/hangack/project-green/tree/main/Kaggle_Survey-2021)
+ - 대회기간: 2021-10-14 ~ 2021-11-28
  - 기간: 2021-11-08 ~ 2021-11-26
  - 주최: 
 
@@ -42,6 +43,31 @@
    - File: [the-latest-trends-in-east-asia-japan-and-china.ipynb](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/the-latest-trends-in-east-asia-japan-and-china.ipynb)
 
 
+#### Project
+1. [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021)
+
+ - 프로젝트 폴더: []()
+ - 대회기간: 2021-12-01 ~ 2021-12-31
+ - 기간: 2021-12-20 ~ 2021-12-28
+ - 주최: 
+
+[![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
+ - 2인 프로젝트
+ - 주제: 
+ - 가상환경:
+   - python 3.7.12
+     - Numpy 1.19.5
+     - Pandas 1.3.4
+     - Plotly 5.4.0
+     - Sklearn 0.0
+     - Scipy 1.7.2
+     - Xgboost 1.5.1
+     - Catboost 1.0.3
+     - Lightgbm 3.3.1
+     - Tenserflow 2.6.2
+ - 개발환경:
+   - Jupyter Notebook
+   - Kaggle Notebook
 
 
 ## Project-green 이전
