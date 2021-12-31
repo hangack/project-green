@@ -36,7 +36,7 @@
  - 언어:
    - python: `pandas`, `plotly`
  - 개발환경:
-   - Jupyter Lab
+   - Jupyter Notebook
    - Kaggle Notebook
  - 제출 notebook:
    - URL: [The latest trends in East Asia, Japan and China](https://www.kaggle.com/kwdoku145/the-latest-trends-in-east-asia-japan-and-china)
@@ -65,7 +65,7 @@
      - Lightgbm 3.3.1
      - Tenserflow 2.6.2
  - 개발환경:
-   - Jupyter Notebook
+   - Jupyter Lab
    - Kaggle Notebook
 
 
