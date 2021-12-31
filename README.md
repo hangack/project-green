@@ -43,8 +43,7 @@
    - File: [the-latest-trends-in-east-asia-japan-and-china.ipynb](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/the-latest-trends-in-east-asia-japan-and-china.ipynb)
 
 
-#### Project
-1. [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021)
+2. [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021)
 
  - 프로젝트 폴더: []()
  - 대회기간: 2021-12-01 ~ 2021-12-31
