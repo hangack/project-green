@@ -67,11 +67,12 @@
  - 개발환경:
    - Jupyter Lab
    - Kaggle Notebook
+ - notebook: [File](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Untitled1.ipynb)
 
 
 3. crawling G2G(poe)
 
- - 프로젝트 폴더: []()
+ - 프로젝트 폴더: [crawl-g2g](https://github.com/hangack/project-green/tree/main/crawl-g2g)
  - 프로젝트: 2021-01-10 ~ 
  - 1인 프로젝트
  - 사용 프로그램:
@@ -93,6 +94,7 @@
    - windows 10 x64
    - pycharm
    - wordpad
+ - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
 
 
 ## Project-green 이전
