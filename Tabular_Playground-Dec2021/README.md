@@ -45,4 +45,4 @@
 
 
 ## PPT
- - pdf: [Tabular Playground Series-Dec2021.pptx](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/docs/Tabular%20Playground%20Series-Dec2021.pdf)
+ - pdf: [Tabular Playground Series-Dec2021](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/docs/Tabular%20Playground%20Series-Dec2021.pdf)

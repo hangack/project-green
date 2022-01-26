@@ -86,10 +86,10 @@
      - psycopg2 2.9.3
      - pyinstaller 4.8
      - datetime
-     - sql:
-       - postgresql 13.5
-       - ~~Google Cloud Platform - BigQuery~~
-     - nncronlt117 119
+   - sql:
+     - postgresql 13.5
+     - ~~Google Cloud Platform - BigQuery~~
+   - nncronlt117 119
  - 개발환경:
    - windows 10 x64
    - pycharm
