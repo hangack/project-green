@@ -37,7 +37,7 @@
 
 ## notebook(ipynb)
 
- - notebook: [Tabular Playground Series-Dec2021.ipynb](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Untitled1.ipynb)
+ - notebook: [Tabular Playground Series-Dec2021.ipynb](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Tabular%20Playground%20Series-Dec2021.ipynb)
 
 
 ## 최종 점수
@@ -45,3 +45,4 @@
 
 
 ## PPT
+ - pdf: [Tabular Playground Series-Dec2021.pptx](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/docs/Tabular%20Playground%20Series-Dec2021.pdf)
