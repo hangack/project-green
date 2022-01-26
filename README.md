@@ -45,7 +45,7 @@
 
 2. [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021)
 
- - 프로젝트 폴더: []()
+ - 프로젝트 폴더: [Tabular_Playground-Dec2021](https://github.com/hangack/project-green/tree/main/Tabular_Playground-Dec2021)
  - 대회기간: 2021-12-01 ~ 2021-12-31
  - 프로젝트: 2021-12-20 ~ 2021-12-29
  - 주최: 
