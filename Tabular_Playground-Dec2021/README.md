@@ -9,6 +9,16 @@
 [![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
  - 2인 프로젝트
  - 주제: 단위 범위 산림 구성목 예측 모델
+
+
+## data(csv & Description) link
+
+ - [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021/data)
+ - [Forest Cover Type Prediction](https://www.kaggle.com/c/forest-cover-type-prediction/data)
+
+
+## Requirement
+
  - 가상환경:
    - python 3.7.12
      - Numpy 1.19.5
@@ -27,9 +37,11 @@
 
 ## notebook(ipynb)
 
- - notebook: [File](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Untitled1.ipynb)
-
+ - notebook: [Tabular Playground Series-Dec2021.ipynb](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Untitled1.ipynb)
 
 
 ## 최종 점수
 ![leaderboard](/Tabular_Playground-Dec2021/Leaderboard.png)
+
+
+## PPT
