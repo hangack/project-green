@@ -52,7 +52,7 @@
 
 [![Kaggle](https://www.kaggle.com/static/images/site-logo.png)](https://www.kaggle.com/)
  - 2인 프로젝트
- - 주제: 
+ - 주제: 단위 범위 산림 구성목 예측 모델
  - 가상환경:
    - python 3.7.12
      - Numpy 1.19.5
@@ -67,6 +67,32 @@
  - 개발환경:
    - Jupyter Lab
    - Kaggle Notebook
+
+
+3. crawling G2G(poe)
+
+ - 프로젝트 폴더: []()
+ - 프로젝트: 2021-01-10 ~ 
+ - 1인 프로젝트
+ - 사용 프로그램:
+   - python 3.10
+     - 가상환경:
+       - pandas 1.3.5
+       - selenium 4.1.0
+         - geocodriver 0.30.0-win64
+         - chromedriver 97.04692.71
+       - beautifulsoup4 4.10.0
+       - psycopg2 2.9.3
+       - pyinstaller 4.8
+       - datetime
+   - sql:
+     - postgresql 13.5
+     - ~~Google Cloud Platform - BigQuery~~
+   - nncronlt117 119
+ - 개발환경:
+   - windows 10 x64
+   - pycharm
+   - wordpad
 
 
 ## Project-green 이전
