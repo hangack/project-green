@@ -1,29 +1,30 @@
-## Project-green
+# Project-green
 
  - [빅데이터분석] 파이썬 활용(Python) 빅데이터 분석 디지털인재 양성과정 A
  - 기간: 2021-09-08 ~ 2022-02-28
 
-### 전반기
+## 전반기
  - 기간: 2021-09-08 ~ 2021-10-26
 
-#### 학습
+### 학습
  - Java 언어 활용
  - Oracle PL/SQL 데이터 입출력
  - Apache Tomcat local 서버 연동
  - HTML, css, jsp, java script 페이지 구현
  - Eclipse > Tomcat > Oracle 파이프라인 구축
 
-### 후반기
+## 후반기
  - 기간: 2021-10-27 ~ 2022-02-28(예정)
 
-#### 학습
+### 학습
  - python
    - numpy
    - pandas
    - plotly
 
-#### Project
-1. [2021 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021)
+### Project
+
+#### 1. [2021 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021)
 
  - 프로젝트 폴더: [./Kaggle_Survey-2021](https://github.com/hangack/project-green/tree/main/Kaggle_Survey-2021)
  - 대회기간: 2021-10-14 ~ 2021-11-28
@@ -43,7 +44,7 @@
    - File: [the-latest-trends-in-east-asia-japan-and-china.ipynb](https://github.com/hangack/project-green/blob/main/Kaggle_Survey-2021/notebook/the-latest-trends-in-east-asia-japan-and-china.ipynb)
 
 
-2. [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021)
+#### 2. [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021)
 
  - 프로젝트 폴더: [Tabular_Playground-Dec2021](https://github.com/hangack/project-green/tree/main/Tabular_Playground-Dec2021)
  - 대회기간: 2021-12-01 ~ 2021-12-31
@@ -70,7 +71,7 @@
  - notebook: [File](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Untitled1.ipynb)
 
 
-3. crawling G2G(poe)
+#### 3. crawling G2G(poe)
 
  - 프로젝트 폴더: [crawl-g2g](https://github.com/hangack/project-green/tree/main/crawl-g2g)
  - 프로젝트: 2021-01-10 ~ 
@@ -97,39 +98,39 @@
  - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
 
 
-## Project-green 이전
+# Project-green 이전
 
-### 학적
+## 학적
 
  - 2015-03 부경대학교 대기환경과학과 입학
  - 2021-02 부경대학교 대기환경과학과 졸업
 
-### CS 외적 지식
+## CS 외적 지식
 
-#### 수학: 
+### 수학: 
  - 기초통계
  - 수리물리
    - 미적분학
    - 선형대수
    - 파동(푸리에 급수)
 
-#### 물리:
+### 물리:
  - 일반물리1
  - 일반물리2
  - 대기역학
  - 대기열역학
 
-#### 화학:
+### 화학:
  - 일반화학1
 
-#### 기타:
+### 기타:
 
 한정 분야에서 활용되는 전공 지식은 생략
 
 
-### CS
+## CS
 
-#### 언어
+### 언어
  - Fortran
  - C
  - Python
@@ -138,7 +139,7 @@
    - pandas
    - Matplotlib
 
-#### 생산성 툴
+### 생산성 툴
  - MS Office
  - SPSS: Statistical Package for the Social Sciences
  - MATLAB
@@ -148,16 +149,16 @@
  - DaVinci Resolve
 
 
-### 해외여행
+## 해외여행
 
-#### 자유여행
+### 자유여행
  - 미국 1개월
  - 일본 3박4일
 
-#### 패키지
+### 패키지
  - 캄보디아 6박7일
 
 
 
-## More details about
+# More details about
 <a href="https://hangack.github.io/about/"><img src="https://hangack.github.io/img/logo.png" alt="hangack" width="20%"></a>
