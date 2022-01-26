@@ -68,29 +68,28 @@
  - 개발환경:
    - Jupyter Lab
    - Kaggle Notebook
- - notebook: [File](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Untitled1.ipynb)
+ - notebook: [Tabular Playground Series-Dec2021.ipynb](https://github.com/hangack/project-green/blob/main/Tabular_Playground-Dec2021/source/Tabular%20Playground%20Series-Dec2021.ipynb)
 
 
 #### 3. crawling G2G(poe)
 
- - 프로젝트 폴더: [crawl-g2g](https://github.com/hangack/project-green/tree/main/crawl-g2g)
+ - 프로젝트 폴더: [crawling-g2g](https://github.com/hangack/project-green/tree/main/crawling-g2g)
  - 프로젝트: 2021-01-10 ~ 
  - 1인 프로젝트
  - 사용 프로그램:
-   - python 3.10
-     - 가상환경:
-       - pandas 1.3.5
-       - selenium 4.1.0
-         - geocodriver 0.30.0-win64
-         - chromedriver 97.04692.71
-       - beautifulsoup4 4.10.0
-       - psycopg2 2.9.3
-       - pyinstaller 4.8
-       - datetime
-   - sql:
-     - postgresql 13.5
-     - ~~Google Cloud Platform - BigQuery~~
-   - nncronlt117 119
+   - 가상환경(python 3.10):
+     - pandas 1.3.5
+     - selenium 4.1.0
+       - geocodriver 0.30.0-win64
+       - chromedriver 97.04692.71
+     - beautifulsoup4 4.10.0
+     - psycopg2 2.9.3
+     - pyinstaller 4.8
+     - datetime
+     - sql:
+       - postgresql 13.5
+       - ~~Google Cloud Platform - BigQuery~~
+     - nncronlt117 119
  - 개발환경:
    - windows 10 x64
    - pycharm

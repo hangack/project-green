@@ -161,5 +161,3 @@ if __name__ == "__main__":
 
     conn = connecting()
     dataInsertPsycopg2(conn, df)
-
-    df.to_gbq
