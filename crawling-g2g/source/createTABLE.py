@@ -14,7 +14,7 @@ def connecting():
     # DB Connect
     conn = connect(
         host = "localhost",
-        dbname = "g2gtestdb",
+        dbname = "db_g2g",
         user = "postgres",
         password = "pwd",
         port = "5432"

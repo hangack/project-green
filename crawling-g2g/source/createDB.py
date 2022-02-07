@@ -16,7 +16,7 @@ def connecting():
         host = "localhost", # SQL 서버 주소
         dbname = "postgres",
         user = "postgres",
-        password = "1210",
+        password = "pwd",
         port = "5432"
     )
 
@@ -25,7 +25,7 @@ def connecting():
 
 def createDB(conn):
     print("createDB function.. in... ")
-    DB_NAME = "G2GtestDB"
+    DB_NAME = "DB_G2G"
 
     # AutoCommit
     autocommit = extensions.ISOLATION_LEVEL_AUTOCOMMIT
