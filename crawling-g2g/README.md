@@ -22,9 +22,13 @@
        - geocodriver 0.30.0-win64
        - chromedriver 97.04692.71
      - beautifulsoup4 4.10.0
-     - psycopg2 2.9.3
-     - pyinstaller 4.8
      - datetime
+     - time
+     - re
+     - psycopg2 2.9.3
+     - google-api-core 2.5.0
+     - pandas_gbq 0.17.0
+     - pyinstaller 4.8
    - sql:
      - postgresql 13.5
      - Google Cloud Platform - BigQuery
