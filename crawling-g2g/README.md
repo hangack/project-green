@@ -35,8 +35,6 @@
    - nncronlt117 119
  - 개발환경:
    - windows 10 x64
-   - pycharm
-   - wordpad
 
 
 ## source code(py)
