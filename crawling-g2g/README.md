@@ -33,7 +33,7 @@
 
 ## source code(python)
 
- - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
+ - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawling-g2g/source/crawl_URL_boost.py)
 
 
 ## PPT
