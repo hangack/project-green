@@ -37,4 +37,4 @@
 
 
 ## PPT
- - pdf: []()
+ - pdf: [현거래 Data 수집.pdf](https://github.com/hangack/project-green/blob/main/crawling-g2g/docs/%ED%98%84%EA%B1%B0%EB%9E%98%20Data%20%EC%88%98%EC%A7%91.pdf)
