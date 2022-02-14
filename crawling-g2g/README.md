@@ -7,12 +7,6 @@
  - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
 
 
-## data(csv & Description) link
-
- - [Tabular Playground Series - Dec 2021](https://www.kaggle.com/c/tabular-playground-series-dec-2021/data)
- - [Forest Cover Type Prediction](https://www.kaggle.com/c/forest-cover-type-prediction/data)
-
-
 ## Requirement
 
  - 사용 프로그램:
