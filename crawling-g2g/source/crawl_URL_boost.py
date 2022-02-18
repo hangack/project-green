@@ -14,7 +14,6 @@ import datetime
 import psycopg2
 from psycopg2 import connect, extensions
 import psycopg2.extras as extras
-import glob
 from google.oauth2 import service_account
 
 pd.set_option("display.max_rows", 200)
@@ -216,7 +215,6 @@ def dataInsertPsycopg2(conn, data):
 
 
 def accGBQ():
-    #key_path = glob.glob('E:/Fear/Univ/Big_data/Training/python/python-crawling/g2g/g2g-crawling-96ce5be30687.json')[0]
     credentials = service_account.Credentials.from_service_account_info(
         {
             "type": "",
