@@ -2,6 +2,9 @@
 
  - 크롤링 대상 사이트: [G2G](https://www.g2g.com/)
  - 프로젝트: 2021-01-10 ~ 
+   - 데이터 수집 코드: 2021-01-10 ~ 2021-02-01
+   - 데이터 수집: 2021-02-05 ~ 
+   - 
  - 1인 프로젝트
  - 주제: 게임([POE](https://poe.game.daum.net/)) 통화 현거래 데이터 수집
  - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
