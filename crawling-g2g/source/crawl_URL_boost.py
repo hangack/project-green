@@ -16,6 +16,7 @@ from psycopg2 import connect, extensions
 import psycopg2.extras as extras
 from google.oauth2 import service_account
 
+
 pd.set_option("display.max_rows", 200)
 pd.set_option("display.max_columns", 200)
 pd.set_option("display.width", 100)
@@ -90,6 +91,22 @@ def get_data():
             stock_list.append(option.string)
         return stock_list
 
+    def try_clickable(xpath_name):
+        try:
+            i = 0
+            soup = soup_wait_clickable(xpath_name)
+
+            seller.extend(get_data_seller(
+                "a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
+            price.extend(get_data_seller("div.hide > div > div > div > div > div > span.offer-price-amount"))
+            stock.extend(get_data_stock())
+        except IndexError as e:
+            i += 1
+            print(e+str(i))
+            time.sleep(1)
+            soup = try_clickable()
+        return soup
+
 
     driver.switch_to.window(driver.window_handles[-1])
     class_name = "offers-bottom-attributes.offer__content-lower-items"
@@ -121,20 +138,20 @@ def get_data():
         while True:
             i += 1
             print("page"+str(i))
+            ## 스크롤 내리기
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            ## Next 클릭
             driver.find_element_by_xpath('//a[@href="#!+1"]').click()
             time.sleep(1)
-            soup = soup_wait_clickable(xpath_name)
 
-            seller.extend(get_data_seller("a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
-            price.extend(get_data_seller("div.hide > div > div > div > div > div > span.offer-price-amount"))
-            stock.extend(get_data_stock())
+            soup = try_clickable(xpath_name)
 
             cdp_i = soup.find_all("a", class_="cdp_i")
             cdp = soup.find("div", class_="content_detail__pagination cdp")
             cdp = str(cdp)
             actpage = int(re.search('actpage="(.+?)" class', cdp).group(1))
-            if actpage == (len(cdp_i)-2):
+
+            if actpage == (len(cdp_i) - 2):
                 print("exit")
                 break
 
@@ -173,7 +190,7 @@ def connecting():
         host = "localhost",
         dbname = "db_g2g",
         user = "postgres",
-        password = "pwd",
+        password = "1210",
         port = "5432"
     )
 
@@ -221,7 +238,6 @@ def accGBQ():
             "project_id": "",
             "private_key_id": "",
             "private_key": "",
-            "client_email": "",
             "client_id": "",
             "auth_uri": "",
             "token_uri": "",
@@ -257,3 +273,4 @@ if __name__ == "__main__":
     dataInsertPsycopg2(conn, df)
 
     accGBQ()
+
