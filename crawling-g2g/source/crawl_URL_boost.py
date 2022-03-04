@@ -102,7 +102,7 @@ def get_data():
             i += 1
             print(e+str(i))
             time.sleep(1)
-            soup = try_clickable()
+            soup = try_clickable(xpath_name)
         return soup
 
 
