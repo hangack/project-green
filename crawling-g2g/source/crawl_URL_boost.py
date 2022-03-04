@@ -199,7 +199,7 @@ if __name__ == "__main__":
         get_data()
     print(df)
 
-    #conn = accsql.connecting()
-    #accsql.dataInsertPsycopg2(conn, data=df)
+    conn = accsql.connecting()
+    accsql.dataInsertPsycopg2(conn, data=df)
 
-    #accsql.accGBQ(df)
+    accsql.accGBQ(df)
