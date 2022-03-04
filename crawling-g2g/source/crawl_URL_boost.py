@@ -95,7 +95,8 @@ def get_data():
 
             seller.extend(get_data_seller(soup,
                 "a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
-            price.extend(get_data_seller(soup,"div.hide > div > div > div > div > div > span.offer-price-amount"))
+            price.extend(get_data_seller(soup,
+                                         "div.hide > div > div > div > div > div > span.offer-price-amount"))
             stock.extend(get_data_stock(soup))
         except IndexError as e:
             i += 1
@@ -128,8 +129,10 @@ def get_data():
     price = []
     stock = []
 
-    seller.extend(get_data_seller(soup,"a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
-    price.extend(get_data_seller(soup,"div.hide > div > div > div > div > div > span.offer-price-amount"))
+    seller.extend(get_data_seller(soup,
+                                  "a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
+    price.extend(get_data_seller(soup,
+                                 "div.hide > div > div > div > div > div > span.offer-price-amount"))
     stock.extend(get_data_stock(soup))
 
 
@@ -196,7 +199,7 @@ if __name__ == "__main__":
         get_data()
     print(df)
 
-    conn = accsql.connecting()
-    accsql.dataInsertPsycopg2(conn, data=df)
+    #conn = accsql.connecting()
+    #accsql.dataInsertPsycopg2(conn, data=df)
 
-    accsql.accGBQ(df)
+    #accsql.accGBQ(df)
