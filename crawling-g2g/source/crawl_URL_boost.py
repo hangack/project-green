@@ -70,14 +70,14 @@ def open_links(href_set):
 
 def get_data():
 
-    def get_data_seller(selector):
+    def get_data_seller(soup,selector):
         seller_list = soup.select(selector)
         seller_list_text = []
         for seller in seller_list:
             seller_list_text.append(seller.string)
         return seller_list_text
 
-    def get_data_stock():
+    def get_data_stock(soup):
         option_list = soup.select("div.offers-bottom-attributes.offer__content-lower-items > span")
         stock_list = []
         n = 0
@@ -93,10 +93,10 @@ def get_data():
             i = 0
             soup = soup_wait_clickable(xpath_name)
 
-            seller.extend(get_data_seller(
+            seller.extend(get_data_seller(soup,
                 "a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
-            price.extend(get_data_seller("div.hide > div > div > div > div > div > span.offer-price-amount"))
-            stock.extend(get_data_stock())
+            price.extend(get_data_seller(soup,"div.hide > div > div > div > div > div > span.offer-price-amount"))
+            stock.extend(get_data_stock(soup))
         except IndexError as e:
             i += 1
             print(e+str(i))
@@ -108,6 +108,10 @@ def get_data():
     driver.switch_to.window(driver.window_handles[-1])
     class_name = "offers-bottom-attributes.offer__content-lower-items"
     soup = soup_wait(class_name)
+
+    if (soup.find("div", class_="noresult-main-title").string == "The offer you try to view is no longer available."):
+        driver.close()
+        return False
 
     today = datetime.date.today().strftime("%Y-%m-%d")
 
@@ -124,9 +128,9 @@ def get_data():
     price = []
     stock = []
 
-    seller.extend(get_data_seller("a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
-    price.extend(get_data_seller("div.hide > div > div > div > div > div > span.offer-price-amount"))
-    stock.extend(get_data_stock())
+    seller.extend(get_data_seller(soup,"a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
+    price.extend(get_data_seller(soup,"div.hide > div > div > div > div > div > span.offer-price-amount"))
+    stock.extend(get_data_stock(soup))
 
 
     i = 1
@@ -139,7 +143,6 @@ def get_data():
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             ## Next 클릭
             driver.find_element_by_xpath('//a[@href="#!+1"]').click()
-            time.sleep(1)
 
             soup = try_clickable(xpath_name)
 
