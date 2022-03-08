@@ -88,6 +88,37 @@ def get_data():
             stock_list.append(option.string)
         return stock_list
 
+    def noresult(soup):
+        if (soup.find("div",class_="noresult-main-title").string == "The offer you try to view is no longer available."):
+            driver.close()
+            return False
+
+    def try_element(class_name):
+        try:
+            i = 0
+            soup = soup_wait(class_name)
+
+            noresult(soup)
+
+            region_right_tolist = soup.select("div.region_right-detail")
+            nonlocal data_col
+            data_col = []
+            for list in region_right_tolist:
+                data_col.append(list.string)
+
+            seller.extend(get_data_seller(soup,
+                                          "a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
+            price.extend(get_data_seller(soup,
+                                         "div.hide > div > div > div > div > div > span.offer-price-amount"))
+            stock.extend(get_data_stock(soup))
+        except IndexError as e:
+            i += 1
+            print(e+str(i))
+            time.sleep(1)
+            soup = try_element(class_name)
+        return soup
+
+
     def try_clickable(xpath_name):
         try:
             i = 0
@@ -106,34 +137,21 @@ def get_data():
         return soup
 
 
-    driver.switch_to.window(driver.window_handles[-1])
-    class_name = "offers-bottom-attributes.offer__content-lower-items"
-    soup = soup_wait(class_name)
-
-    if (soup.find("div", class_="noresult-main-title").string == "The offer you try to view is no longer available."):
-        driver.close()
-        return False
-
     today = datetime.date.today().strftime("%Y-%m-%d")
 
-    region_right_tolist = soup.select("div.region_right-detail")
-    #print(region_right_tolist)
     data_col = []
-    for list in region_right_tolist:
-        data_col.append(list.string)
-    #print(data_col)
-    server = data_col[0][49:-44]
-    currency = data_col[1][49:-44]
 
     seller = []
     price = []
     stock = []
 
-    seller.extend(get_data_seller(soup,
-                                  "a.flex.prechekout-non-produdct-details > div.seller-details.m-l-sm > div.seller__name-detail"))
-    price.extend(get_data_seller(soup,
-                                 "div.hide > div > div > div > div > div > span.offer-price-amount"))
-    stock.extend(get_data_stock(soup))
+    driver.switch_to.window(driver.window_handles[-1])
+    class_name = "offers-bottom-attributes.offer__content-lower-items"
+
+    soup = try_element(class_name)
+
+    server = data_col[0][49:-44]
+    currency = data_col[1][49:-44]
 
 
     i = 1
