@@ -97,7 +97,7 @@
  - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
 
 
-# Project-green 이전
+# Project-green 이외
 
 ## 학적
 
@@ -156,6 +156,17 @@
 
 ### 패키지
  - 캄보디아 6박7일
+
+
+## 경력 외 아르바이트
+ - 아워홈 분류 및 패킹
+   - 2014.12 ~ 2015.02
+ - 유튜브 영상 편집 
+   - 2021.04 ~ 2021.08
+ - 용역, 임대 건물 청소 및 수리 보조
+   - 2022.06 ~ 2022.11
+ - 노래방 아르바이트
+   - 2023.01 ~ 2023.03
 
 
 
