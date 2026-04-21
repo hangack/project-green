@@ -105,15 +105,19 @@
 
 ## 강화 시트
  - https://docs.google.com/spreadsheets/d/1RFGLfc1DwGXLHDgAYmpkQi9rJhdBsSlXOtxin0dDNSI/edit?usp=sharing
+ - 최종 수정일: 2026.03.
 
 ## 연금 시트
  - https://docs.google.com/spreadsheets/d/1BF7wQWIC9I_PFYnsHVXfUDEbhABJEFo9irrBhkDJO4o/edit?usp=sharing
+ - 최종 수정일: 2025.12.
 
 ## 요리 시트
  - https://docs.google.com/spreadsheets/d/15qbObhq2Dluu4b2MdBAIsVQ9cdKh6nXNLP5raEApU3M/edit?usp=sharing
+ - 최종 수정일: 2025.06.
 
 ## 크론석 효율 시트
  - https://docs.google.com/spreadsheets/d/1idJOWLLfDanTQvZSnPLIf6-C2UMb3phrp8HXqdHqIG8/edit?usp=sharing
+ - 최종 수정일: 2026.04.
 
 
 #### 개발환경: Google Spreadsheets
