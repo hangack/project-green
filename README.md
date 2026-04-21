@@ -136,7 +136,7 @@
  - 장기간 활동 중단 중
 
 
-## 각종 게임 플레이 정보
+## 취미 게임 활동 내용
 
 ### Steam
  - https://steamcommunity.com/id/HanGack
