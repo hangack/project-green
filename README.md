@@ -116,12 +116,12 @@
  - https://docs.google.com/spreadsheets/d/1idJOWLLfDanTQvZSnPLIf6-C2UMb3phrp8HXqdHqIG8/edit?usp=sharing
 
 
-## 개발환경: Google Spreadsheets
+#### 개발환경: Google Spreadsheets
  - Apps Script
    - Radio_button.gs
    - crease_value.gs
    - IMPORTJSONAPI.gs
-     - api.arsha.io V2
+- api.arsha.io V2
 
 # 이외
 
