@@ -97,7 +97,33 @@
  - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
 
 
-# Project-green 이외
+# 검은사막 경매장 API 활용 시트
+
+ - 검은사막 경매장 API를 활용하여 유저가 최적의 루트로 성장할 수 있는 데이터 구글시트 제작
+ - 실시간 반영 API 활용
+
+
+## 강화 시트
+ - https://docs.google.com/spreadsheets/d/1RFGLfc1DwGXLHDgAYmpkQi9rJhdBsSlXOtxin0dDNSI/edit?usp=sharing
+
+## 연금 시트
+ - https://docs.google.com/spreadsheets/d/1BF7wQWIC9I_PFYnsHVXfUDEbhABJEFo9irrBhkDJO4o/edit?usp=sharing
+
+## 요리 시트
+ - https://docs.google.com/spreadsheets/d/15qbObhq2Dluu4b2MdBAIsVQ9cdKh6nXNLP5raEApU3M/edit?usp=sharing
+
+## 검은사막 크론석 효율 시트
+ - https://docs.google.com/spreadsheets/d/1idJOWLLfDanTQvZSnPLIf6-C2UMb3phrp8HXqdHqIG8/edit?usp=sharing
+
+
+ - 개발환경: Google Spreadsheets
+ - Apps Script
+  - Radio_button.gs
+  - crease_value.gs
+  - IMPORTJSONAPI.gs
+   - api.arsha.io V2
+
+# 이외
 
 
 ## 경력 외 아르바이트
