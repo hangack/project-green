@@ -97,25 +97,28 @@
  - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
 
 
-# 검은사막 경매장 API 활용 시트
+# 게임 관련 활동
+
+
+## 검은사막 경매장 API 활용 시트
 
  - 검은사막 경매장 API를 활용하여 유저가 최적의 루트로 성장할 수 있는 데이터 구글시트 제작
  - 실시간 반영 API 활용
 
 
-## 강화 시트
+### 강화 시트
  - https://docs.google.com/spreadsheets/d/1RFGLfc1DwGXLHDgAYmpkQi9rJhdBsSlXOtxin0dDNSI/edit?usp=sharing
  - 최종 수정일: 2026.03.
 
-## 연금 시트
+### 연금 시트
  - https://docs.google.com/spreadsheets/d/1BF7wQWIC9I_PFYnsHVXfUDEbhABJEFo9irrBhkDJO4o/edit?usp=sharing
  - 최종 수정일: 2025.12.
 
-## 요리 시트
+### 요리 시트
  - https://docs.google.com/spreadsheets/d/15qbObhq2Dluu4b2MdBAIsVQ9cdKh6nXNLP5raEApU3M/edit?usp=sharing
  - 최종 수정일: 2025.06.
 
-## 크론석 효율 시트
+### 크론석 효율 시트
  - https://docs.google.com/spreadsheets/d/1idJOWLLfDanTQvZSnPLIf6-C2UMb3phrp8HXqdHqIG8/edit?usp=sharing
  - 최종 수정일: 2026.04.
 
@@ -126,6 +129,26 @@
    - crease_value.gs
    - IMPORTJSONAPI.gs
 - api.arsha.io V2
+
+
+## 게임 공략 및 빌드 유튜브 활동
+ - https://www.youtube.com/@%EC%9C%A0%ED%95%9C%EA%B0%81
+ - 현재는 활동을 일시중단 상태
+
+
+## 각종 게임 플레이 정보
+
+### Steam
+ - https://steamcommunity.com/id/HanGack
+
+### 리치마작 (기준일: 2026.04.)
+ - 작혼
+   - 4인마작: 호1
+   - 3인마작: 호2
+ - 마작1번가
+   - 4인마작: 7단
+   - 3인마작: 천하일번
+
 
 # 이외
 
