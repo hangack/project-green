@@ -97,7 +97,7 @@
  - file: [crawl_URL_boost.py](https://github.com/hangack/project-green/blob/main/crawl-g2g/source/crawl_URL_boost.py)
 
 
-# 게임 관련 활동
+# 취미 활동
 
 
 ## 검은사막 경매장 API 활용 시트
@@ -131,13 +131,9 @@
 - api.arsha.io V2
 
 
-## 게임 공략 및 빌드 유튜브 활동
+## 유튜브 활동
  - https://www.youtube.com/@%EC%9C%A0%ED%95%9C%EA%B0%81
- - 장기간 활동 중단 중
-
-
-## Steam 프로필
- - https://steamcommunity.com/id/HanGack/
+ - 활동 중단
 
 
 # 이외
@@ -159,7 +155,6 @@
 
 ## 어학능력
  - 일본어 일상 회화
- - 영어 설명서 독해
 
 
 
